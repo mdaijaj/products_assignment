@@ -41,8 +41,7 @@ const Products = () => {
                     </div>
                 </form>
             </div>
-
-            <center><h1>Recenctly products Search....</h1></center><br />
+            <center><h3>Recenctly products Search....</h3></center><br />
             <div className="container">
                 <ul className="row list-ul">
                     {loading ? "please wait data is loading" : ""}
@@ -66,7 +65,7 @@ const Products = () => {
                                             <p className="card-text">{`price: ${rest.price}`}</p>
                                             <p className="card-text">   {`discountPercentage: ${rest.discountPercentage}`}</p>
                                             <p className="card-text">{`description: ${rest.description}`}</p>
-                                            <NavLink to={`/restdetails/${rest._id}`} className="btn btn-primary">Food Available</NavLink>
+                                            <NavLink to={`/restdetails/${rest.id}`} className="btn btn-primary">Available</NavLink>
                                         </div>
                                     </div>
                                 </div>

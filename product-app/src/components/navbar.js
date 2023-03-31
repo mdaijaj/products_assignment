@@ -47,7 +47,6 @@ const Navbar = (props) => {
                                         <NavLink className="nav-link" to="/profile">Profile</NavLink>
                                     </li>
                                 </ul>
-
                             </>
                         }
 

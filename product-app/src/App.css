@@ -64,10 +64,9 @@ ul.list-ul {
 }
 .label {
   font-size: 25px;
-  padding-top: 50px;
   font-weight: bold;
 }
 
-/* .container{
+.container{
   margin-top: 120px;
-} */
+}
